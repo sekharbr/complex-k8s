@@ -1,0 +1,13 @@
+{
+    "AWSEBDockerrunVersion":"2",
+    "containerDefinitions": [
+        {
+            "name": "client",
+            "image": "sekhar92/multi-client",
+            "hostname": "client",
+            "essential": false
+        }
+        
+
+    ]
+}
