@@ -12,7 +12,7 @@ after_success:
   - docker build -t sekhar92/multi-client ./client
   - docker build -t sekhar92/multi-server ./server
   - docker build -t sekhar92/multi-worker ./worker
-  - docker build -t sekhar92/multi-nginx ./client/nginx
+  - docker build -t sekhar92/multi-nginx ./nginx
   #Login to Dockerhub
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   #Take those images and Push to Dockerhub
